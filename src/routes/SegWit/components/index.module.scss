@@ -1,0 +1,13 @@
+.pageWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  :global {
+    .formControlCenter {
+      position: relative;
+      margin: 0px auto;
+      top: 80px;
+    }
+  }
+}

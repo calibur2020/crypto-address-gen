@@ -1,0 +1,11 @@
+.pageWrapper {
+  width: 100%;
+
+  :global {
+    .formControlCenter {
+      position: relative;
+      margin: 0px auto;
+      top: 80px;
+    }
+  }
+}

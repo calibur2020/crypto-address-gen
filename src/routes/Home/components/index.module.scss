@@ -1,0 +1,21 @@
+.homePageWrapper {
+  max-width: 626px;
+  margin: 0px auto;
+  :global {
+    .HomeTitle {
+      padding-bottom: 24px;
+      padding-top: 45px;
+      border-bottom: solid 1px #979797;
+      font-size: 42px;
+      text-align: center;
+      color: #0f0c0c;
+    }
+    .generatorBtnContainer {
+      display: flex;
+      justify-content: space-around;
+      padding-bottom: 32px;
+      padding-top: 8px;
+      text-align: center;
+    }
+  }
+}

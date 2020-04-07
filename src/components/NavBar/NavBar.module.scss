@@ -1,0 +1,81 @@
+@import "@/theme/gvars.scss";
+
+.navBarWrapper {
+  display: table;
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 0 20px;
+  width: 100%;
+  margin: 0;
+  background: rgb(10, 31, 65);
+
+  font-family: $primary-font;
+  font-size: 16px;
+  color: #d5d5d5;
+  vertical-align: middle;
+  height: 50px;
+
+  & > * {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  :global {
+    .logoLink {
+      display: block;
+      height: 30px;
+    }
+    .logoLeft {
+      font-family: $nav-link-font;
+      font-weight: bold;
+      width: 200px;
+    }
+    .controls {
+      text-align: right;
+    }
+    .navRight {
+      font-size: 16px;
+      color: #d5d5d5;
+      vertical-align: middle;
+      font-family: $nav-link-font;
+      & > .uaLink {
+        vertical-align: middle;
+        font-size: 10px;
+        line-height: 16px;
+        color: #d5d5d5;
+        margin-left: 4px;
+        text-decoration: underline;
+        &:hover {
+          color: #eee;
+        }
+        &:active {
+          color: #fff;
+        }
+      }
+      .navRightLink {
+        font-size: 16px;
+
+        vertical-align: middle;
+        line-height: 16px;
+        color: #d5d5d5;
+        margin-right: 16px;
+        text-decoration: none;
+        &:hover {
+          color: #eee;
+          text-decoration: underline;
+        }
+        &:active {
+          color: #fff;
+        }
+        &.link {
+          margin-right: 32px;
+        }
+      }
+      .uaName {
+        vertical-align: middle;
+        display: inline-block;
+      }
+    }
+  }
+}

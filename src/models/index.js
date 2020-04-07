@@ -1,0 +1,1 @@
+export segWitModel from "./segWit";

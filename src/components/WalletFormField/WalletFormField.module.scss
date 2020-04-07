@@ -1,0 +1,67 @@
+@import "@/theme/gvars.scss";
+
+.walletFormField {
+  padding-bottom: 28px;
+  padding-top: 10px;
+  text-align: left;
+  font-family: $primary-font;
+  display: block;
+  & > :global(.affLabel) {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(34, 37, 41);
+    display: block;
+    padding-bottom: 8px;
+  }
+  :global {
+    .affInputCon {
+      display: block;
+      width: 100%;
+      .affInput {
+        outline: none;
+        border: solid 0.5px rgb(69, 151, 243);
+        background-color: #ffffff;
+        border-radius: 4px;
+        font-size: 16px;
+        font-family: inherit;
+        display: block;
+        height: 30px;
+        width: 100%;
+      }
+      .affInputTextArea {
+        outline: none;
+        border: solid 0.5px rgb(69, 151, 243);
+        background-color: #ffffff;
+        border-radius: 4px;
+        font-size: 16px;
+        font-family: inherit;
+        display: block;
+        height: 60px;
+        width: 100%;
+      }
+      .affInputDisabled {
+        outline: none;
+        border: solid 0.5px #979797;
+        border-radius: 4px;
+        background-color: #dddddd;
+        font-size: 16px;
+        font-family: inherit;
+        height: 30px;
+        display: block;
+        width: 100%;
+      }
+      .affInputTextAreaDisabled {
+        outline: none;
+        border: solid 1px #979797;
+        border-radius: 4px;
+        background-color: #dddddd;
+        font-size: 16px;
+        font-family: inherit;
+        height: 60px;
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+}
