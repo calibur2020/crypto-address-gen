@@ -34,5 +34,10 @@ It's been wonderful experience working on this project, during which I have lear
 
 ### Reference Link
 
-My typescript npm package:
-[ts-mongoose-pagination](https://www.npmjs.com/package/ts-mongoose-pagination)
+-   My typescript npm package:
+    [ts-mongoose-pagination](https://www.npmjs.com/package/ts-mongoose-pagination)
+
+### Articles about learnings from the project:
+
+-   Difference between public address and public key. (https://zhuanlan.zhihu.com/p/126223330)
+-   More coming soon...
